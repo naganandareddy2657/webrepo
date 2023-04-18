@@ -71,6 +71,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo \"pre-commit\"",
+      "pre-applypatch": "echo \"[Husky] pre-apply\"",
+      "pre-push": "echo \"[Husky] pre-push\""
+    }
+  },
+
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/naganandareddy2657/webrepo.git"
