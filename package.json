@@ -73,7 +73,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo \"pre-commit\"",
+      "pre-commit": "npm run lint",
       "pre-applypatch": "echo \"[Husky] pre-apply\"",
       "pre-push": "echo \"[Husky] pre-push\""
     }
